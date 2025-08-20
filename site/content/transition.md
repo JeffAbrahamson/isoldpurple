@@ -1,40 +1,10 @@
-<html>
-    <head>
-    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-	body {
-	background-color: #DD99FF;
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	}
-    </style>
-<!-- Matomo -->
-<script type="text/javascript">
-  var _paq = window._paq = window._paq || [];
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="//wa.mobilitains.fr/";
-    _paq.push(['setTrackerUrl', u+'matomo.php']);
-    _paq.push(['setSiteId', '2']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<noscript><p><img src="//wa.mobilitains.fr/matomo.php?idsite=2&amp;rec=1" style="border:0;" alt="" /></p></noscript>
-<!-- End Matomo Code -->
-<!-- Matomo Image Tracker-->
-<img src="https://wa.mobilitains.fr/matomo.php?idsite=2&amp;rec=1" style="border:0" alt="" />
-<!-- End Matomo -->
-    </head>
-    <body>
+---
+title: "Server Transition"
+---
 
-<p>
-<a href="index.html">back</a>
+[back](/)
 
-<p>
-<pre>
+```text
 jeff@birdsong:Documents $ while true; do echo $(date) "  " $(curl -I --silent http://www.purple.com/index.html | grep Server); sleep 300; done
 Thu 2 Nov 21:38:03 CET 2017    Server: Chaos
 Thu 2 Nov 21:43:03 CET 2017    Server: Chaos
@@ -62,21 +32,21 @@ Thu 2 Nov 23:28:07 CET 2017    Server: Chaos
 Thu 2 Nov 23:33:08 CET 2017    Server: Chaos
 Thu 2 Nov 23:38:08 CET 2017    Server: Chaos
 Thu 2 Nov 23:43:08 CET 2017    Server: Chaos
-Thu 2 Nov 23:48:08 CET 2017   
-Thu 2 Nov 23:55:18 CET 2017   
+Thu 2 Nov 23:48:08 CET 2017
+Thu 2 Nov 23:55:18 CET 2017
 Fri 3 Nov 00:02:28 CET 2017    Server: Chaos
 Fri 3 Nov 00:07:29 CET 2017    Server: Chaos
 Fri 3 Nov 00:12:29 CET 2017    Server: Chaos
-Fri 3 Nov 00:17:29 CET 2017   
+Fri 3 Nov 00:17:29 CET 2017
 Fri 3 Nov 00:24:40 CET 2017    Server: Chaos
 Fri 3 Nov 00:29:40 CET 2017    Server: Chaos
 Fri 3 Nov 00:34:40 CET 2017    Server: Chaos
 Fri 3 Nov 00:39:40 CET 2017    Server: Chaos
-Fri 3 Nov 00:44:56 CET 2017   
+Fri 3 Nov 00:44:56 CET 2017
 Fri 3 Nov 00:52:06 CET 2017    Server: Chaos
 Fri 3 Nov 00:57:06 CET 2017    Server: Chaos
 Fri 3 Nov 01:02:07 CET 2017    Server: Chaos
-Fri 3 Nov 01:07:07 CET 2017   
+Fri 3 Nov 01:07:07 CET 2017
 Fri 3 Nov 01:14:17 CET 2017    Server: Chaos
 Fri 3 Nov 01:19:18 CET 2017    Server: Chaos
 Fri 3 Nov 01:24:18 CET 2017    Server: Chaos
@@ -148,9 +118,6 @@ Fri 3 Nov 06:49:35 CET 2017    Server: nginx
 Fri 3 Nov 06:54:35 CET 2017    Server: nginx
 Fri 3 Nov 06:59:35 CET 2017    Server: nginx
 Fri 3 Nov 07:04:36 CET 2017    Server: nginx
-</pre>
+```
 
-<p>
-<a href="index.html">back</a>
-    </body>
-</html>
+[back](/)

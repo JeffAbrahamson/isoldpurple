@@ -1,0 +1,24 @@
+body {
+    background-color: #DD99FF;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #7D26CD;
+}
+a {
+    color: #CC88DD;
+    text-decoration: none;
+}
+a:link { color: #CC88DD; }
+a:link.subtle { color: #BB77FF; }
+p.subtle { color: #BB77FF; }
+a:visited { color: #DD99FF; }
+a:visited.subtle { color: #BB77FF; }
+a:hover, a:active { color: #7D26CD; }
+div.textContainer {
+    text-align: center;
+    margin: 20px 15px 10px 20px;
+    padding: 10px 10px;
+}
+div.textContainer p {
+    display: inline-block;
+    text-align: left;
+}
