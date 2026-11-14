@@ -5,7 +5,7 @@ title = "ISoldPurple.com"
 # Keep the original flat URLs (/whois-begin.html etc.) so old links still work.
 uglyURLs = true
 
-disableKinds = ["taxonomy", "term", "section", "RSS", "sitemap", "robotsTXT", "404"]
+disableKinds = ["taxonomy", "term", "section", "RSS", "sitemap", "robotsTXT"]
 
 [markup.goldmark.renderer]
   unsafe = false
