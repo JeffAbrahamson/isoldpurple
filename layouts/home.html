@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="textContainer">
+  <p class="subtle">
+    purple.com<br>
+    {{- with site.GetPage "/whois-begin" }}
+    <a class="subtle" href="{{ .RelPermalink }}">{{ $.Params.created }}</a> -
+    {{- end }}
+    {{- with site.GetPage "/whois-end" }}
+    <a class="subtle" href="{{ .RelPermalink }}">{{ $.Params.sold }}</a>
+    {{- end }}
+  </p>
+</div>
+
+<div class="textContainer">
+  <div>{{ .Content }}</div>
+</div>
+{{ end }}

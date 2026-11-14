@@ -1,40 +1,8 @@
-<html>
-    <head>
-    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-	body {
-	background-color: #DD99FF;
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	}
-    </style>
-<!-- Matomo -->
-<script type="text/javascript">
-  var _paq = window._paq = window._paq || [];
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="//wa.mobilitains.fr/";
-    _paq.push(['setTrackerUrl', u+'matomo.php']);
-    _paq.push(['setSiteId', '2']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<noscript><p><img src="//wa.mobilitains.fr/matomo.php?idsite=2&amp;rec=1" style="border:0;" alt="" /></p></noscript>
-<!-- End Matomo Code -->
-<!-- Matomo Image Tracker-->
-<img src="https://wa.mobilitains.fr/matomo.php?idsite=2&amp;rec=1" style="border:0" alt="" />
-<!-- End Matomo -->
-    </head>
-    <body>
+---
+title: "purple.com whois, 2017"
+---
 
-<p>
-<a href="index.html">back</a>
-
-<p>
-    <pre>
+```text
 jeff@birdsong:~ $ whois purple.com
    Domain Name: PURPLE.COM
    Registry Domain ID: 45097_DOMAIN_COM-VRSN
@@ -90,9 +58,4 @@ reserves the right to modify these terms at any time.
 The Registry database contains ONLY .COM, .NET, .EDU domains and
 Registrars.
 1, jeff@birdsong:~ $
-</pre>
-
-<p>
-<a href="index.html">back</a>
-    </body>
-</html>
+```
